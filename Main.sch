@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1161,176 +1161,6 @@ Footprint for SMD assembly.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="ESP32-DEVKITC-32D">
-<packages>
-<package name="MODULE_ESP32-DEVKITC-32D">
-<wire x1="-13.95" y1="27.15" x2="13.95" y2="27.15" width="0.127" layer="51"/>
-<wire x1="13.95" y1="27.15" x2="13.95" y2="-27.25" width="0.127" layer="51"/>
-<wire x1="13.95" y1="-27.25" x2="-13.95" y2="-27.25" width="0.127" layer="51"/>
-<wire x1="-13.95" y1="-27.25" x2="-13.95" y2="27.15" width="0.127" layer="51"/>
-<wire x1="-13.95" y1="-27.25" x2="-13.95" y2="27.15" width="0.127" layer="21"/>
-<wire x1="-13.95" y1="27.15" x2="13.95" y2="27.15" width="0.127" layer="21"/>
-<wire x1="13.95" y1="27.15" x2="13.95" y2="-27.25" width="0.127" layer="21"/>
-<wire x1="13.95" y1="-27.25" x2="-13.95" y2="-27.25" width="0.127" layer="21"/>
-<wire x1="-14.2" y1="27.4" x2="14.2" y2="27.4" width="0.05" layer="39"/>
-<wire x1="14.2" y1="27.4" x2="14.2" y2="-27.5" width="0.05" layer="39"/>
-<wire x1="14.2" y1="-27.5" x2="-14.2" y2="-27.5" width="0.05" layer="39"/>
-<wire x1="-14.2" y1="-27.5" x2="-14.2" y2="27.4" width="0.05" layer="39"/>
-<text x="-14.0054" y="27.8108" size="1.270490625" layer="25">&gt;NAME</text>
-<text x="-14.0146" y="-28.9302" size="1.27133125" layer="27">&gt;VALUE</text>
-<circle x="-14.6" y="19.9" radius="0.14" width="0.28" layer="27"/>
-<circle x="-14.6" y="19.9" radius="0.14" width="0.28" layer="51"/>
-<pad name="1" x="-12.7" y="19.76" drill="1.04" shape="square"/>
-<pad name="2" x="-12.7" y="17.22" drill="1.04"/>
-<pad name="19" x="-12.7" y="-25.96" drill="1.04"/>
-<pad name="3" x="-12.7" y="14.68" drill="1.04"/>
-<pad name="4" x="-12.7" y="12.14" drill="1.04"/>
-<pad name="5" x="-12.7" y="9.6" drill="1.04"/>
-<pad name="6" x="-12.7" y="7.06" drill="1.04"/>
-<pad name="7" x="-12.7" y="4.52" drill="1.04"/>
-<pad name="8" x="-12.7" y="1.98" drill="1.04"/>
-<pad name="9" x="-12.7" y="-0.56" drill="1.04"/>
-<pad name="10" x="-12.7" y="-3.1" drill="1.04"/>
-<pad name="11" x="-12.7" y="-5.64" drill="1.04"/>
-<pad name="12" x="-12.7" y="-8.18" drill="1.04"/>
-<pad name="13" x="-12.7" y="-10.72" drill="1.04"/>
-<pad name="14" x="-12.7" y="-13.26" drill="1.04"/>
-<pad name="15" x="-12.7" y="-15.8" drill="1.04"/>
-<pad name="16" x="-12.7" y="-18.34" drill="1.04"/>
-<pad name="17" x="-12.7" y="-20.88" drill="1.04"/>
-<pad name="18" x="-12.7" y="-23.42" drill="1.04"/>
-<pad name="20" x="12.7" y="19.76" drill="1.04"/>
-<pad name="21" x="12.7" y="17.22" drill="1.04"/>
-<pad name="22" x="12.7" y="14.68" drill="1.04"/>
-<pad name="23" x="12.7" y="12.14" drill="1.04"/>
-<pad name="24" x="12.7" y="9.6" drill="1.04"/>
-<pad name="25" x="12.7" y="7.06" drill="1.04"/>
-<pad name="26" x="12.7" y="4.52" drill="1.04"/>
-<pad name="27" x="12.7" y="1.98" drill="1.04"/>
-<pad name="28" x="12.7" y="-0.56" drill="1.04"/>
-<pad name="29" x="12.7" y="-3.1" drill="1.04"/>
-<pad name="30" x="12.7" y="-5.64" drill="1.04"/>
-<pad name="31" x="12.7" y="-8.18" drill="1.04"/>
-<pad name="32" x="12.7" y="-10.72" drill="1.04"/>
-<pad name="33" x="12.7" y="-13.26" drill="1.04"/>
-<pad name="34" x="12.7" y="-15.8" drill="1.04"/>
-<pad name="35" x="12.7" y="-18.34" drill="1.04"/>
-<pad name="36" x="12.7" y="-20.88" drill="1.04"/>
-<pad name="37" x="12.7" y="-23.42" drill="1.04"/>
-<pad name="38" x="12.7" y="-25.96" drill="1.04"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ESP32-DEVKITC-32D">
-<wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
-<text x="-15.2572" y="26.0643" size="1.78" layer="95">&gt;NAME</text>
-<text x="-15.2563" y="-27.9698" size="1.7799" layer="96">&gt;VALUE</text>
-<pin name="3V3" x="-20.32" y="22.86" length="middle" direction="pwr"/>
-<pin name="EN" x="-20.32" y="20.32" length="middle" direction="in"/>
-<pin name="SENSOR_VP" x="-20.32" y="17.78" length="middle" direction="in"/>
-<pin name="SENSOR_VN" x="-20.32" y="15.24" length="middle" direction="in"/>
-<pin name="IO34" x="-20.32" y="12.7" length="middle"/>
-<pin name="IO35" x="-20.32" y="10.16" length="middle"/>
-<pin name="IO32" x="-20.32" y="7.62" length="middle"/>
-<pin name="IO33" x="-20.32" y="5.08" length="middle"/>
-<pin name="IO25" x="-20.32" y="2.54" length="middle"/>
-<pin name="IO26" x="-20.32" y="0" length="middle"/>
-<pin name="IO27" x="-20.32" y="-2.54" length="middle"/>
-<pin name="IO14" x="-20.32" y="-5.08" length="middle"/>
-<pin name="IO12" x="-20.32" y="-7.62" length="middle"/>
-<pin name="GND1" x="-20.32" y="-10.16" length="middle" direction="pwr"/>
-<pin name="IO13" x="-20.32" y="-12.7" length="middle"/>
-<pin name="SD2" x="-20.32" y="-15.24" length="middle"/>
-<pin name="SD3" x="-20.32" y="-17.78" length="middle"/>
-<pin name="CMD" x="-20.32" y="-20.32" length="middle"/>
-<pin name="EXT_5V" x="-20.32" y="-22.86" length="middle" direction="pwr"/>
-<pin name="CLK" x="20.32" y="-22.86" length="middle" direction="in" function="clk" rot="R180"/>
-<pin name="SD0" x="20.32" y="-20.32" length="middle" rot="R180"/>
-<pin name="SD1" x="20.32" y="-17.78" length="middle" rot="R180"/>
-<pin name="IO15" x="20.32" y="-15.24" length="middle" rot="R180"/>
-<pin name="IO2" x="20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="IO0" x="20.32" y="-10.16" length="middle" rot="R180"/>
-<pin name="IO4" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="IO16" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="IO17" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="IO5" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="IO18" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="IO19" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="GND2" x="20.32" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="IO21" x="20.32" y="10.16" length="middle" rot="R180"/>
-<pin name="RXD0" x="20.32" y="12.7" length="middle" direction="in" rot="R180"/>
-<pin name="TXD0" x="20.32" y="15.24" length="middle" direction="out" rot="R180"/>
-<pin name="IO22" x="20.32" y="17.78" length="middle" rot="R180"/>
-<pin name="IO23" x="20.32" y="20.32" length="middle" rot="R180"/>
-<pin name="GND3" x="20.32" y="22.86" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ESP32-DEVKITC-32D" prefix="U">
-<description>Eval Board For Esp-Wroom-32</description>
-<gates>
-<gate name="G$1" symbol="ESP32-DEVKITC-32D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MODULE_ESP32-DEVKITC-32D">
-<connects>
-<connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="CLK" pad="38"/>
-<connect gate="G$1" pin="CMD" pad="18"/>
-<connect gate="G$1" pin="EN" pad="2"/>
-<connect gate="G$1" pin="EXT_5V" pad="19"/>
-<connect gate="G$1" pin="GND1" pad="14"/>
-<connect gate="G$1" pin="GND2" pad="26"/>
-<connect gate="G$1" pin="GND3" pad="20"/>
-<connect gate="G$1" pin="IO0" pad="33"/>
-<connect gate="G$1" pin="IO12" pad="13"/>
-<connect gate="G$1" pin="IO13" pad="15"/>
-<connect gate="G$1" pin="IO14" pad="12"/>
-<connect gate="G$1" pin="IO15" pad="35"/>
-<connect gate="G$1" pin="IO16" pad="31"/>
-<connect gate="G$1" pin="IO17" pad="30"/>
-<connect gate="G$1" pin="IO18" pad="28"/>
-<connect gate="G$1" pin="IO19" pad="27"/>
-<connect gate="G$1" pin="IO2" pad="34"/>
-<connect gate="G$1" pin="IO21" pad="25"/>
-<connect gate="G$1" pin="IO22" pad="22"/>
-<connect gate="G$1" pin="IO23" pad="21"/>
-<connect gate="G$1" pin="IO25" pad="9"/>
-<connect gate="G$1" pin="IO26" pad="10"/>
-<connect gate="G$1" pin="IO27" pad="11"/>
-<connect gate="G$1" pin="IO32" pad="7"/>
-<connect gate="G$1" pin="IO33" pad="8"/>
-<connect gate="G$1" pin="IO34" pad="5"/>
-<connect gate="G$1" pin="IO35" pad="6"/>
-<connect gate="G$1" pin="IO4" pad="32"/>
-<connect gate="G$1" pin="IO5" pad="29"/>
-<connect gate="G$1" pin="RXD0" pad="24"/>
-<connect gate="G$1" pin="SD0" pad="37"/>
-<connect gate="G$1" pin="SD1" pad="36"/>
-<connect gate="G$1" pin="SD2" pad="16"/>
-<connect gate="G$1" pin="SD3" pad="17"/>
-<connect gate="G$1" pin="SENSOR_VN" pad="4"/>
-<connect gate="G$1" pin="SENSOR_VP" pad="3"/>
-<connect gate="G$1" pin="TXD0" pad="23"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" - Transceiver; 802.11 b/g/n _Wi-Fi, WiFi, WLAN_, Bluetooth® Smart Ready 4.x Dual Mode For Use With ESP-WROOM-32 "/>
-<attribute name="MF" value="Espressif Systems"/>
-<attribute name="MP" value="ESP32-DEVKITC-32D"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-harting" urn="urn:adsk.eagle:library:151">
 <description>&lt;b&gt;Harting Ribbon Cable Connectors&lt;/b&gt;&lt;p&gt;
 This library includes the former libraries ribcon.lbr and ribcon4.lbr.&lt;p&gt;
@@ -1659,6 +1489,176 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="custom">
+<packages>
+<package name="MODULE_ESP32-DEVKITC-32D">
+<wire x1="-13.95" y1="20.8" x2="11.41" y2="20.8" width="0.127" layer="51"/>
+<wire x1="11.41" y1="20.8" x2="11.41" y2="-27.25" width="0.127" layer="51"/>
+<wire x1="11.41" y1="-27.25" x2="-13.95" y2="-27.25" width="0.127" layer="51"/>
+<wire x1="-13.95" y1="-27.25" x2="-13.95" y2="20.8" width="0.127" layer="51"/>
+<wire x1="-13.95" y1="-27.25" x2="-13.95" y2="20.8" width="0.127" layer="21"/>
+<wire x1="-13.95" y1="20.8" x2="11.41" y2="20.8" width="0.127" layer="21"/>
+<wire x1="11.41" y1="20.8" x2="11.41" y2="-27.25" width="0.127" layer="21"/>
+<wire x1="11.41" y1="-27.25" x2="-13.95" y2="-27.25" width="0.127" layer="21"/>
+<wire x1="-14.2" y1="21.05" x2="11.66" y2="21.05" width="0.05" layer="39"/>
+<wire x1="11.66" y1="21.05" x2="11.66" y2="-27.5" width="0.05" layer="39"/>
+<wire x1="11.66" y1="-27.5" x2="-14.2" y2="-27.5" width="0.05" layer="39"/>
+<wire x1="-14.2" y1="-27.5" x2="-14.2" y2="21.05" width="0.05" layer="39"/>
+<text x="-14.0054" y="21.4608" size="1.270490625" layer="25">&gt;NAME</text>
+<text x="-14.0146" y="-28.9302" size="1.27133125" layer="27">&gt;VALUE</text>
+<circle x="-14.6" y="19.9" radius="0.14" width="0.28" layer="27"/>
+<circle x="-14.6" y="19.9" radius="0.14" width="0.28" layer="51"/>
+<pad name="1" x="-12.7" y="19.76" drill="1.04" shape="square"/>
+<pad name="2" x="-12.7" y="17.22" drill="1.04"/>
+<pad name="19" x="-12.7" y="-25.96" drill="1.04"/>
+<pad name="3" x="-12.7" y="14.68" drill="1.04"/>
+<pad name="4" x="-12.7" y="12.14" drill="1.04"/>
+<pad name="5" x="-12.7" y="9.6" drill="1.04"/>
+<pad name="6" x="-12.7" y="7.06" drill="1.04"/>
+<pad name="7" x="-12.7" y="4.52" drill="1.04"/>
+<pad name="8" x="-12.7" y="1.98" drill="1.04"/>
+<pad name="9" x="-12.7" y="-0.56" drill="1.04"/>
+<pad name="10" x="-12.7" y="-3.1" drill="1.04"/>
+<pad name="11" x="-12.7" y="-5.64" drill="1.04"/>
+<pad name="12" x="-12.7" y="-8.18" drill="1.04"/>
+<pad name="13" x="-12.7" y="-10.72" drill="1.04"/>
+<pad name="14" x="-12.7" y="-13.26" drill="1.04"/>
+<pad name="15" x="-12.7" y="-15.8" drill="1.04"/>
+<pad name="16" x="-12.7" y="-18.34" drill="1.04"/>
+<pad name="17" x="-12.7" y="-20.88" drill="1.04"/>
+<pad name="18" x="-12.7" y="-23.42" drill="1.04"/>
+<pad name="20" x="10.16" y="19.76" drill="1.04"/>
+<pad name="21" x="10.16" y="17.22" drill="1.04"/>
+<pad name="22" x="10.16" y="14.68" drill="1.04"/>
+<pad name="23" x="10.16" y="12.14" drill="1.04"/>
+<pad name="24" x="10.16" y="9.6" drill="1.04"/>
+<pad name="25" x="10.16" y="7.06" drill="1.04"/>
+<pad name="26" x="10.16" y="4.52" drill="1.04"/>
+<pad name="27" x="10.16" y="1.98" drill="1.04"/>
+<pad name="28" x="10.16" y="-0.56" drill="1.04"/>
+<pad name="29" x="10.16" y="-3.1" drill="1.04"/>
+<pad name="30" x="10.16" y="-5.64" drill="1.04"/>
+<pad name="31" x="10.16" y="-8.18" drill="1.04"/>
+<pad name="32" x="10.16" y="-10.72" drill="1.04"/>
+<pad name="33" x="10.16" y="-13.26" drill="1.04"/>
+<pad name="34" x="10.16" y="-15.8" drill="1.04"/>
+<pad name="35" x="10.16" y="-18.34" drill="1.04"/>
+<pad name="36" x="10.16" y="-20.88" drill="1.04"/>
+<pad name="37" x="10.16" y="-23.42" drill="1.04"/>
+<pad name="38" x="10.16" y="-25.96" drill="1.04"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP32-DEVKITC-32D">
+<wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<text x="-15.2572" y="26.0643" size="1.78" layer="95">&gt;NAME</text>
+<text x="-15.2563" y="-27.9698" size="1.7799" layer="96">&gt;VALUE</text>
+<pin name="3V3" x="-20.32" y="22.86" length="middle" direction="pwr"/>
+<pin name="EN" x="-20.32" y="20.32" length="middle" direction="in"/>
+<pin name="SENSOR_VP" x="-20.32" y="17.78" length="middle" direction="in"/>
+<pin name="SENSOR_VN" x="-20.32" y="15.24" length="middle" direction="in"/>
+<pin name="IO34" x="-20.32" y="12.7" length="middle"/>
+<pin name="IO35" x="-20.32" y="10.16" length="middle"/>
+<pin name="IO32" x="-20.32" y="7.62" length="middle"/>
+<pin name="IO33" x="-20.32" y="5.08" length="middle"/>
+<pin name="IO25" x="-20.32" y="2.54" length="middle"/>
+<pin name="IO26" x="-20.32" y="0" length="middle"/>
+<pin name="IO27" x="-20.32" y="-2.54" length="middle"/>
+<pin name="IO14" x="-20.32" y="-5.08" length="middle"/>
+<pin name="IO12" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GND1" x="-20.32" y="-10.16" length="middle" direction="pwr"/>
+<pin name="IO13" x="-20.32" y="-12.7" length="middle"/>
+<pin name="SD2" x="-20.32" y="-15.24" length="middle"/>
+<pin name="SD3" x="-20.32" y="-17.78" length="middle"/>
+<pin name="CMD" x="-20.32" y="-20.32" length="middle"/>
+<pin name="EXT_5V" x="-20.32" y="-22.86" length="middle" direction="pwr"/>
+<pin name="CLK" x="20.32" y="-22.86" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="SD0" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="SD1" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="IO15" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="IO2" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="IO0" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="IO4" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="IO16" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="IO17" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO5" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="IO18" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="IO19" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="GND2" x="20.32" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="IO21" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="RXD0" x="20.32" y="12.7" length="middle" direction="in" rot="R180"/>
+<pin name="TXD0" x="20.32" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="IO22" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="IO23" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="GND3" x="20.32" y="22.86" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP32-DEVKITC-32D" prefix="U">
+<description>Eval Board For Esp-Wroom-32</description>
+<gates>
+<gate name="G$1" symbol="ESP32-DEVKITC-32D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MODULE_ESP32-DEVKITC-32D">
+<connects>
+<connect gate="G$1" pin="3V3" pad="1"/>
+<connect gate="G$1" pin="CLK" pad="38"/>
+<connect gate="G$1" pin="CMD" pad="18"/>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="EXT_5V" pad="19"/>
+<connect gate="G$1" pin="GND1" pad="14"/>
+<connect gate="G$1" pin="GND2" pad="26"/>
+<connect gate="G$1" pin="GND3" pad="20"/>
+<connect gate="G$1" pin="IO0" pad="33"/>
+<connect gate="G$1" pin="IO12" pad="13"/>
+<connect gate="G$1" pin="IO13" pad="15"/>
+<connect gate="G$1" pin="IO14" pad="12"/>
+<connect gate="G$1" pin="IO15" pad="35"/>
+<connect gate="G$1" pin="IO16" pad="31"/>
+<connect gate="G$1" pin="IO17" pad="30"/>
+<connect gate="G$1" pin="IO18" pad="28"/>
+<connect gate="G$1" pin="IO19" pad="27"/>
+<connect gate="G$1" pin="IO2" pad="34"/>
+<connect gate="G$1" pin="IO21" pad="25"/>
+<connect gate="G$1" pin="IO22" pad="22"/>
+<connect gate="G$1" pin="IO23" pad="21"/>
+<connect gate="G$1" pin="IO25" pad="9"/>
+<connect gate="G$1" pin="IO26" pad="10"/>
+<connect gate="G$1" pin="IO27" pad="11"/>
+<connect gate="G$1" pin="IO32" pad="7"/>
+<connect gate="G$1" pin="IO33" pad="8"/>
+<connect gate="G$1" pin="IO34" pad="5"/>
+<connect gate="G$1" pin="IO35" pad="6"/>
+<connect gate="G$1" pin="IO4" pad="32"/>
+<connect gate="G$1" pin="IO5" pad="29"/>
+<connect gate="G$1" pin="RXD0" pad="24"/>
+<connect gate="G$1" pin="SD0" pad="37"/>
+<connect gate="G$1" pin="SD1" pad="36"/>
+<connect gate="G$1" pin="SD2" pad="16"/>
+<connect gate="G$1" pin="SD3" pad="17"/>
+<connect gate="G$1" pin="SENSOR_VN" pad="4"/>
+<connect gate="G$1" pin="SENSOR_VP" pad="3"/>
+<connect gate="G$1" pin="TXD0" pad="23"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" - Transceiver; 802.11 b/g/n _Wi-Fi, WiFi, WLAN_, Bluetooth® Smart Ready 4.x Dual Mode For Use With ESP-WROOM-32 "/>
+<attribute name="MF" value="Espressif Systems"/>
+<attribute name="MP" value="ESP32-DEVKITC-32D"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1682,7 +1682,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R5" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/1" technology="_"/>
 <part name="R6" library="Resistor" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/1" technology="_"/>
 <part name="SUPPLY6" library="Power_Symbols" deviceset="GND" device=""/>
-<part name="U1" library="ESP32-DEVKITC-32D" deviceset="ESP32-DEVKITC-32D" device=""/>
+<part name="U1" library="custom" deviceset="ESP32-DEVKITC-32D" device=""/>
 <part name="CON1" library="con-harting" library_urn="urn:adsk.eagle:library:151" deviceset="CON10" device="" package3d_urn="urn:adsk.eagle:package:7121/1"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
