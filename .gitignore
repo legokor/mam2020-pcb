@@ -50,3 +50,5 @@ eagle.epf
 # file locks introduced since 7.x
 *.lck
 DRILEGEND.CFG
+manufacture.brd
+manufacture.pdf
