@@ -169,6 +169,10 @@
 <dimension x1="2.794" y1="-0.635" x2="99.802" y2="-0.762" x3="51.29440625" y3="-3.44111875" textsize="1.778" layer="1"/>
 <hole x="16.891" y="19.812" drill="2.9972"/>
 <hole x="85.725" y="19.812" drill="2.9972"/>
+<dimension x1="17.018" y1="19.558" x2="2.921" y2="41.783" x3="9.9695" y3="43.053" textsize="1.9304" layer="1" dtype="horizontal"/>
+<dimension x1="85.725" y1="19.812" x2="99.822" y2="19.685" x3="93.006690625" y3="45.632659375" textsize="1.9304" layer="1"/>
+<dimension x1="89.281" y1="34.29" x2="99.822" y2="34.163" x3="94.641671875" y3="41.710765625" textsize="1.9304" layer="1"/>
+<dimension x1="89.281" y1="34.29" x2="89.281" y2="40.259" x3="107.315" y3="37.2745" textsize="1.9304" layer="1"/>
 </plain>
 <libraries>
 <library name="con-harting" urn="urn:adsk.eagle:library:151">

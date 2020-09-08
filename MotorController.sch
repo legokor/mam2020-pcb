@@ -11714,7 +11714,7 @@ part number 2062-2P from STA</description>
 <segment>
 <pinref part="CON1" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<label x="27.94" y="172.72" size="1.778" layer="95"/>
+<label x="25.4" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M_DIR1" class="0">
@@ -11726,7 +11726,7 @@ part number 2062-2P from STA</description>
 <segment>
 <pinref part="CON1" gate="G$1" pin="4"/>
 <wire x1="35.56" y1="175.26" x2="27.94" y2="175.26" width="0.1524" layer="91"/>
-<label x="27.94" y="175.26" size="1.778" layer="95"/>
+<label x="25.4" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M_STEP2" class="0">
@@ -11738,7 +11738,7 @@ part number 2062-2P from STA</description>
 <segment>
 <pinref part="CON1" gate="G$1" pin="6"/>
 <wire x1="35.56" y1="177.8" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
-<label x="27.94" y="177.8" size="1.778" layer="95"/>
+<label x="25.4" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M_DIR2" class="0">
