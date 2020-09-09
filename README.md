@@ -41,7 +41,7 @@
 
 ### Connector
 
-[![N|Solid](https://raw.githubusercontent.com/legokor/mam2020-pcb/master/connector_pinout.png)]
+![N|Solid](https://raw.githubusercontent.com/legokor/mam2020-pcb/master/connector_pinout.png)
 
 
 ## Parts list
